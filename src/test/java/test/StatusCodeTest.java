@@ -12,8 +12,7 @@ public class StatusCodeTest {
 
 
     @BeforeMethod
-    public void setUp(){
-    }
+
 
     @Test
     public void testGoogleHomePageStatusCode() {

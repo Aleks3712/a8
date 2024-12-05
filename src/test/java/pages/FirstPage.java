@@ -15,7 +15,7 @@ public class FirstPage {
 
     // Локаторы
     private By InputgoogleLocator = By.xpath("//textarea[@title='Поиск']");
-    private By InputyandexLocator = By.id("text");
+    private By InputyandexLocator = By.xpath("//*[@id='text']");
     private By ButtonLocator = By.xpath("//button[@type='submit']");
 
     public FirstPage(WebDriver driver) {
